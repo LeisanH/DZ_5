@@ -16,5 +16,5 @@ for (int i = 1; i < array.Length; i += 2)
         min = array[i];
 
 for (int i = 0; i < array.Length; i++)
-    Console.Write($"{array[i]} ");
+    Console.Write($"{array[i]}  ");
 Console.Write($"-> {max - min}");
